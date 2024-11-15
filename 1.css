@@ -1,4 +1,27 @@
-#listItem{
+#title{
+	display: block;
+	background-color: lightblue;
+	padding: 40px;
+	width: 500px;
+	
+	border-radius: 35px;
+	
+	margin-left: auto;
+	margin-right: auto;
+	
+	font-family: "Copperplate", fantasy;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #5555AA;
+	text-shadow: 1px 1px #eeeeff;
+}
+#titleBorder{
+	border-top: 10px solid;
+	border-bottom: 10px solid;
+	margin-bottom: 15px;
+	background-color: #eeeeff;
+}
+.listItem{
 	width:150px;
 }
 .dotted{
@@ -10,9 +33,13 @@
 	border: 1px dashed;
 	border-radius: 10px;
 	background-color: white;
+	font-family: monospace;
+	font-size: 7px;
 }
 .solid{
-	border: 1px solid;
+	border: solid;
 	border-radius: 25px;
 	background-color: white;
+	border-color: #bbbbbb;
+	border-width: 2px;
 }
